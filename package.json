@@ -1,0 +1,17 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "first test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "tarek",
+  "license": "ISC",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@testPackage/*": ["src/testPackage/*"]
+    }
+  }
+}
